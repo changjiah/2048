@@ -1,0 +1,135 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:"Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    color:#6F665E;
+}
+#menu{
+    width:520px;
+    height:150px;
+    margin:10px auto;
+    position:relative;
+}
+.title{
+    font-size:100px;
+}
+.score{
+     position:absolute;
+     right:0;
+     top:0;
+ }
+.score p{
+    float:left;
+    background:#BBADA0;
+    color:#EEE4CF;
+    padding:5px;
+    margin:5px;
+    border-radius:5px;
+    text-align:center;
+}
+.score span{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+}
+.play{
+    position:absolute;
+    right:0;
+    bottom:0;
+    background:#8F7A66;
+    color:white;
+    font-size:28px;
+    margin:20px 10px;
+    padding:3px 10px;
+    border-radius:5px;
+}
+#box{
+    width:520px;
+    height:520px;
+    background:#BBADA0;
+    border-radius:3%;
+    margin:10px auto;
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-content:space-around;
+    padding:10px;
+}
+.shuzi{
+    width:105px;
+    height:105px;
+    background:#CDC1B4;
+    border-radius:3%;
+    text-align:center;
+    line-height:105px;
+    /*font-weight:bold;*/
+}
+#box>[num='bg2']{
+    background:#EDE3D9;
+    float:right;
+    color:#6F665E;
+    font-size:80px;
+}
+#box>[num='bg4']{
+    background:#DACEB8;
+    float:right;
+    color:#6F665E;
+    font-size:80px;
+}
+#box>[num='bg8']{
+    background:#DDA572;
+    float:right;
+    color:white;
+    font-size:80px;
+}
+#box>[num='bg16']{
+    background:#F39563;
+    float:right;
+    color:white;
+    font-size:70px;
+}
+#box>[num='bg32']{
+    background:#E1755B;
+    float:right;
+    color:white;
+    font-size:70px;
+}
+#box>[num='bg64']{
+    background:#E25938;
+    float:right;
+    color:white;
+    font-size:70px;
+}
+#box>[num='bg128']{
+    background:#EFCE71;
+    float:right;
+    color:white;
+    font-size:50px;
+}
+#box>[num='bg256']{
+    background:#DABC5C;
+    float:right;
+    color:white;
+    font-size:50px;
+}
+#box>[num='bg512']{
+    background:#DAB84B;
+    float:right;
+    color:white;
+    font-size:50px;
+}
+#box>[num='bg1024']{
+    background:#DAB63D;
+    float:right;
+    color:white;
+    font-size:40px;
+}
+#box>[num='bg2048']{
+    background:#EDC500;
+    float:right;
+    color:white;
+    font-size:40px;
+}
