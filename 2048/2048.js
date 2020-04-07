@@ -1,6 +1,6 @@
 window.onload = function () {
     let number = document.getElementsByClassName('number');
-    let arr1 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    let arr1 = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     let start = document.getElementsByClassName('start')[0];
     let my = document.getElementsByClassName('my')[0];
     let max = document.getElementsByClassName('max')[0];
